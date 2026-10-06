@@ -1,0 +1,117 @@
+
+.card {
+    width: 18rem;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 15px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Product image */
+.card-img-top {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+/* Card content */
+.card-body {
+    padding: 18px;
+}
+
+/* Availability badge */
+.card-body .text-end {
+    margin-bottom: 8px;
+}
+
+.card-body .badge {
+    font-size: 12px;
+    padding: 6px 9px;
+    border-radius: 20px;
+}
+
+/* Product title */
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+/* Description */
+.card-text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    min-height: 63px;
+}
+
+/* More Info link */
+.card-body a {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #0d6efd;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.card-body  a:hover {
+    text-decoration: underline;
+}
+
+/* Product tags */
+.card-body .badge.text-bg-warning {
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+/* Price */
+.prodPrice {
+    font-size: 18px;
+    font-weight: 600;
+    color: #198754;
+    margin-top: 10px;
+}
+
+/* Buttons area */
+.btnArea {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Buttons */
+.btnArea .btn {
+    flex: 1;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #cf86cc;
+    color: white;
+
+}
+
+.btnArea .btn:hover {
+    background-color: #e451df;
+    transform: translateY(-2px);
+}
+
+
+

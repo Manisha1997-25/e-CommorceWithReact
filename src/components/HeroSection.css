@@ -1,0 +1,65 @@
+.heroSection{
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 8%;
+    background-color: linear-gradient(135deg, #f5f7ff, #ffffff);
+    gap: 40px;
+    
+    
+}
+.heroContent{
+    max-width: 550px;
+}
+.heroContent h1{
+    font-size: 60px;
+    line-height: 1.1;
+    margin: 0 0 20px;
+    color: #918787;
+}
+.heroContent h1 span{
+    font-size: 50px;
+    color: #cf86cc;
+}
+.heroTitle{
+    color: #cf86cc;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.heroDescription{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.shopBtn{
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #cf86cc;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.shopBtn:hover{
+    transform: translateY(-3px);
+    background-color: #e451df;
+}
+ .heroImage{
+    width: 45%;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.heroImage img{
+    width: 600px;
+    max-width: 800px;
+    border-radius: 15px;
+    /* object-fit: ; */
+} 
